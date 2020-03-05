@@ -12,7 +12,7 @@ This is a tutorial to learn basic and practical bioinformatics created for under
 - [3. MiniCondaのインストール](#3-MiniCondaのインストール)
 - [4. パスについて](#4-パスについて)
 - [5. ATOMをインストールする](#5-ATOMをインストールする)
-- [6. 解析ソフト(blast)を使ってみる](#6-解析ソフト(blast)を使ってみる)
+- [6. 解析ソフト(blast)を使ってみる](#6-解析ソフトblastを使ってみる)
 <!-- /TOC -->
 
 ### はじめに
