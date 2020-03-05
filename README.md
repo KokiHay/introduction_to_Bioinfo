@@ -1,8 +1,20 @@
-# **Introduction to Bioinformatics**
+# **Introduction to Bioinformatics**  
 **Koki Hayashi**  
- Department of molecular biology and biotechnology, Faculty of Pharmaceutical Sciences, Chiba Univ.  
+ Department of molecular biology and biotechnology, Faculty of Pharmaceutical Sciences.  
 
 This is a tutorial to learn basic and practical bioinformatics created for undergraduate students majoring in pharmacy or pharmaceutical sciences. All methods and opinions here are independent of the institute to which the author belongs (10 March 2020).
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [**Introduction to Bioinformatics**](#introduction-to-bioinformatics)
+		- [はじめに](#)
+		- [1. RならびにRstudioのインストール](#1-rrstudio)
+		- [2. Linuxを使えるようにする](#2-linux使)
+		- [3. MiniCondaのインストール](#3-miniconda)
+		- [4. パスについて](#4-)
+		- [5. ATOMをインストールする](#5-atom)
+		- [6. 解析ソフト(blast)を使ってみる](#6-解析blast使)
+
+<!-- /TOC -->
 
 ### はじめに
 　近年のITの発達、とりわけ機械学習、人工知能 (AI)の発達は目覚しいものです。生物学でもコンピュータに頼ったデータ解析なしでは、最先端の研究には追いつけない時代となりました。では、私たちも初めから最後までAIについて勉強すべきでしょうか？いいえ、化学・生物学を主に学んできた私たちが、情報学を学んできた方々と同じことをしていても追いつくことは困難ですし、私たちの強みを活かせません。極論すれば、私たちは、ツールを使用できればそれでいいのです。もっとも重要なのは、化学・生物学的視点から解析結果を分析し、そこから意味のある解釈を引き出すことです。ただし、その解釈が妥当なものなのか、意義のあるものなのか判断するためには、ツールのアルゴリズムを理解することが不可欠です。したがって、自分とそして研究室の仲間を納得させられる程度には、ツールの概念を理解するようにしましょう。  
@@ -138,10 +150,10 @@ echoは変数や文字列を表示させるコマンドです。また、bashで
 
 ### 5. ATOMをインストールする
 ATOMは2015年にリリースされた新しいテキストエディタです。テキストエディタは皆さんがコードを書くためのアプリです。選択肢はたくさんありますが、[ATOM](https://atom.io)がいいのではないかと思います。ダウンロードしてインストールしてください。インストールしたら、ATOMがアプリケーションのディレクトリに入っていることを確認してください。この.mdファイルもATOMで編集しています。  
-Rscriptを書くときにはRstudioでよいと思いますが、その他の言語はATOMがよいかもしれません。(pythonには大人気のjupyter notebookという対話型実行環境があります)ATOMは有名なソフトウェア開発プラットホームであり、ソースコードのリポジトリでもある**[GitHub](https://github.com)**にサポートされていて、多くのPackageを利用することができるため、簡単に機能を拡張できます。  
+Rscriptを書くときにはRstudioでよいと思いますが、その他の言語はATOMがよいかもしれません。(pythonには大人気のjupyter notebookという対話型実行環境があります)ATOMは有名なソフトウェア開発プラットホームであり、ソースコードのリポジトリでもある[GitHub](https://github.com)にサポートされていて、多くのPackageを利用することができるため、簡単に機能を拡張できます。  
 使い方は演習を通して説明します。
 
-### 6. 解析ソフトを使ってみる
+### 6. 解析ソフト(blast)を使ってみる
 ソフトはAnacondaのリポジトリからインストールするのがもっとも簡単です。したがって、使いたいツールがある場合にはまず、[Anaconda Cloud](https://anaconda.org/anaconda/repo)を探しましょう。解析ソフトを使用する前には、できるだけ**Documentationに目を通しておく**ようにしましょう。  
 
 通常どのようにツールのインストールにいたるかblastのインストールを例にして考えたいと思います。
@@ -201,7 +213,7 @@ qを押すとlessコマンドが抜け出すことができます。
     CRO_T109448 CRO_T125328 CRO_T125329 -f > ./blast_tutorial/test.fa
 ~~~
 
-これでtest.faの中に３つの酵素のアミノ酸配列が入りました。それでは、これをqueryとしてblast検索をしましょう。blastデータベースをダウンロードして (update_blastdb.pl --decompress nr)それに対してblastをかける方がスレッド数を増やすことができるため 、早く終わるのですが、データベースが重くダウンロードに時間がかかるため、**remote**で走らせます。もちろん、データベースに公開されていないゲノムからblast用のデータベースを作って (e.g., makeblastdb -in cro_v2_asm.fasta -out CroDB -dbtype nucl -parse_seqids)これに対して検索することもできます。(例はDNA配列のデータベースをつくる場合)
+これでtest.faの中に３つの酵素のアミノ酸配列が入りました。それでは、これをqueryとしてblast検索をしましょう。blastデータベースをダウンロードして (update_blastdb.pl --decompress nr)それに対してblastをかける方がスレッド数を増やすことができるため 、早く終わるのですが、データベースが重くダウンロードに時間がかかるため、**remote** で走らせます。もちろん、データベースに公開されていないゲノムからblast用のデータベースを作って (e.g., makeblastdb -in cro_v2_asm.fasta -out CroDB -dbtype nucl -parse_seqids)これに対して検索することもできます。(例はDNA配列のデータベースをつくる場合)
 
 ~~~bash
   $ cd blast_tutorial
