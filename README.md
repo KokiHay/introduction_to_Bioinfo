@@ -3,6 +3,7 @@
  Department of molecular biology and biotechnology, Faculty of Pharmaceutical Sciences.  
 
 This is a tutorial to learn basic and practical bioinformatics created for undergraduate students majoring in pharmacy or pharmaceutical sciences. All methods and opinions here are independent of the institute to which the author belongs (10 March 2020).
+
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [**Introduction to Bioinformatics**](#introduction-to-bioinformatics)
