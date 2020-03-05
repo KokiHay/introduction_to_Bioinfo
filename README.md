@@ -1,20 +1,18 @@
-# **Introduction to Bioinformatics**  
+# **Introduction to Bioinformatics (1)**  
 **Koki Hayashi**  
  Department of molecular biology and biotechnology, Faculty of Pharmaceutical Sciences.  
 
 This is a tutorial to learn basic and practical bioinformatics created for undergraduate students majoring in pharmacy or pharmaceutical sciences. All methods and opinions here are independent of the institute to which the author belongs (10 March 2020).
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [**Introduction to Bioinformatics**](#introduction-to-bioinformatics)
-		- [はじめに](#)
-		- [1. RならびにRstudioのインストール](#1-rrstudio)
-		- [2. Linuxを使えるようにする](#2-linux使)
-		- [3. MiniCondaのインストール](#3-miniconda)
-		- [4. パスについて](#4-)
-		- [5. ATOMをインストールする](#5-atom)
-		- [6. 解析ソフト(blast)を使ってみる](#6-解析blast使)
-
+ **Introduction to Bioinformatics (1)**
+- [はじめに](#はじめに)
+- [1. RならびにRstudioのインストール](#1-RならびにRstudioのインストール)
+- [2. Linuxを使えるようにする](#2-Linuxを使えるようにする)
+- [3. MiniCondaのインストール](#3-MiniCondaのインストール)
+- [4. パスについて](#4-パスについて)
+- [5. ATOMをインストールする](#5-ATOMをインストールする)
+- [6. 解析ソフト(blast)を使ってみる](#6-解析ソフト(blast)を使ってみる)
 <!-- /TOC -->
 
 ### はじめに
