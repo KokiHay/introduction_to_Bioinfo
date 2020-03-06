@@ -1,5 +1,5 @@
 # **Introduction to Bioinformatics (1)**  
-**Koki-23**  
+
  Department of molecular biology and biotechnology, Faculty of Pharmaceutical Sciences.  
 
 This is a tutorial to learn basic and practical bioinformatics created for undergraduate students majoring in pharmacy or pharmaceutical sciences. All methods and opinions here are independent of the institute to which the author belongs (10 March 2020).
