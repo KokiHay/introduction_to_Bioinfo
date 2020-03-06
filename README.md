@@ -4,7 +4,7 @@
 
 This is a tutorial to learn basic and practical bioinformatics created for undergraduate students majoring in pharmacy or pharmaceutical sciences. All methods and opinions here are independent of the institute to which the author belongs (10 March 2020).
 
-- [Introduction to Bioinformatics (1)](path:./Introduction_to_Bioinformatics_1)
+- [Introduction to Bioinformatics (1)](path:./Introduction_to_Bioinformatics_1/README.md)
 - Introduction to Bioinformatics (2)
 
 ### はじめに
